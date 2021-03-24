@@ -10,7 +10,11 @@ Reutilizando el código anterior, crear la función esImpar.
 *******************************************************************************/
 
 echo esPar(10);echo "<br/>";
-echo esImpar(11);
+echo esImpar(11);"<br/>";
+
+echo esImpar(10);echo "<br/>";
+echo esPar(11);
+
 
 function esPar(int $numero)
 {
