@@ -11,4 +11,5 @@ Reutilizando el código anterior, crear la función esImpar.
  *******************************************************************************/
 
  //include_once 
-echo Prueba();
+ //echo Prueba();
+ echo "asd";
