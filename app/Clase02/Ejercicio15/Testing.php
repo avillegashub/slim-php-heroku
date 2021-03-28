@@ -10,6 +10,6 @@ si este número es par ó FALSE si es impar.
 Reutilizando el código anterior, crear la función esImpar.
  *******************************************************************************/
 
- //include_once 
- //echo Prueba();
+ include_once "Test.php";
+ echo Prueba();
  echo "asd";
