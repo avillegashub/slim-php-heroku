@@ -24,10 +24,12 @@ dibujarlo por pantalla.
 
  *******************************************************************************/
 
+include_once "Clases.php";
 
 
+ $triangulo = new Triangulo(rand(), rand());
+ $rectangulo = new Rectangulo(rand(), rand());
+ $triangulo->ToString();
+ $rectangulo->ToString();
 
- function Prueba()
- {
-     return "Hola";
- }
+
