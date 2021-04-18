@@ -43,7 +43,8 @@ class Producto
            Producto::_RegistrarProducto($this);
         }else{ 
             Producto::ModificarStock($c,$s );
-            echo "Producto ya existe";}
+
+            }
     }
     
     public function __construct2($i, $n, $c, $t, $s, $p)
@@ -87,7 +88,6 @@ class Producto
             fwrite($miArchivo, json_encode($value)."\n");
         }
         fclose($miArchivo);
-        echo "Alta Exitosa";
     }
     
     static function _ValidarProducto($u)
@@ -135,7 +135,6 @@ class Producto
             
             if( strcmp($lista[$i]->codigo, $codigo) == 0)
             {
-                echo "Lista[".$i."]->codigo: " . $lista[$i]->codigo ."- Codigo: ". $codigo;
                 $lista[$i]->stock += $stock;
                 break;
             }
