@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "017671f2-895e-4915-9651-c06d5736d2d5",
+		"name": "EjerciciosHeroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ejercicio25",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "codigo",
+							"value": "22229",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "Doritos",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "Snack",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "14,99",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://avillegas.herokuapp.com/Clase03/Ejercicio25/registro.php",
+					"protocol": "https",
+					"host": [
+						"avillegas",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"Clase03",
+						"Ejercicio25",
+						"registro.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio24",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://avillegas.herokuapp.com/Clase03/Ejercicio24/registro.php?listado=TRUE",
+					"protocol": "https",
+					"host": [
+						"avillegas",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"Clase03",
+						"Ejercicio24",
+						"registro.php"
+					],
+					"query": [
+						{
+							"key": "listado",
+							"value": "TRUE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio23",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Usuario1",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "mail",
+							"value": "usuario1@dominio.com",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"type": "file",
+							"src": "/C:/Users/Bitter/Desktop/112518063.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://avillegas.herokuapp.com/Clase03/Ejercicio23/registro.php",
+					"protocol": "https",
+					"host": [
+						"avillegas",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"Clase03",
+						"Ejercicio23",
+						"registro.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio26",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "codigo",
+							"value": "111111",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "111111",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "100",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://avillegas.herokuapp.com/Clase03/Ejercicio26/registro.php",
+					"protocol": "https",
+					"host": [
+						"avillegas",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"Clase03",
+						"Ejercicio26",
+						"registro.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
