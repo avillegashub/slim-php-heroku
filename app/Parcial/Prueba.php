@@ -1,0 +1,3 @@
+<?
+echo "PRUEBA EXITOSA";
+?>
